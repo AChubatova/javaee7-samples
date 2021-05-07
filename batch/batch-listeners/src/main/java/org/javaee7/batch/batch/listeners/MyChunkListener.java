@@ -58,6 +58,6 @@ public class MyChunkListener extends AbstractChunkListener {
     @Override
     public void afterChunk() throws Exception {
         BatchListenerRecorder.batchListenersCountDownLatch.countDown();
-        System.out.println("MyChunkListener.afterChunk");
+        System.out.println("MyChunkListener.afterChunk2");
     }
 }
