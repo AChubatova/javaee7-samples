@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-datasourcedefinition-webxml-pu:war">
+    <output-path>$PROJECT_DIR$/jpa/datasourcedefinition-webxml-pu/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-datasourcedefinition-webxml-pu</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-datasourcedefinition-webxml-pu.war">
+      <element id="artifact" artifact-name="jpa-datasourcedefinition-webxml-pu:war exploded" />
+    </root>
+  </artifact>
+</component>

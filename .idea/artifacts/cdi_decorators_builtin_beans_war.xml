@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cdi-decorators-builtin-beans:war">
+    <output-path>$PROJECT_DIR$/cdi/decorators-builtin-beans/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cdi-decorators-builtin-beans</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cdi-decorators-builtin-beans.war">
+      <element id="artifact" artifact-name="cdi-decorators-builtin-beans:war exploded" />
+    </root>
+  </artifact>
+</component>

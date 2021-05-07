@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cdi-decorators-priority" />
+        <module name="jsf-http-get" />
+        <module name="javamail-definition" />
+        <module name="concurrency-managedthreadfactory" />
+        <module name="jta-tx-exception" />
+        <module name="cdi-exclude-filter" />
+        <module name="cdi-events" />
+        <module name="jms-temp-destination" />
+        <module name="jaxrs-mapping-exceptions" />
+        <module name="jaxrs-interceptor" />
+        <module name="jaxrs-db-access" />
+        <module name="jpa-datasourcedefinition" />
+        <module name="jsf-contracts-library" />
+        <module name="jaxrs-readerwriter-json" />
+        <module name="jpa-schema-gen-scripts" />
+        <module name="cdi-nobeans-xml" />
+        <module name="cdi-interceptors-priority" />
+        <module name="batch-flow" />
+        <module name="servlet-nonblocking" />
+        <module name="json-object-reader" />
+        <module name="jpa-pu-typesafe" />
+        <module name="jpa-default-datasource" />
+        <module name="json-streaming-parser" />
+        <module name="cdi-events-conditional-reception" />
+        <module name="batch-chunk-csv-database" />
+        <module name="batch-chunk-optional-processor" />
+        <module name="jaxrs-async-client" />
+        <module name="batch-multiple-steps" />
+        <module name="jaxrs-jsonp" />
+        <module name="batch-scheduling" />
+        <module name="interceptor-around-construct" />
+        <module name="jaspic-ejb-register-session" />
+        <module name="jaxrs-paramconverter" />
+        <module name="batch-batch-listeners" />
+        <module name="websocket-websocket-client-programmatic" />
+        <module name="websocket-endpoint-security" />
+        <module name="jsf-server-extension" />
+        <module name="cdi-alternatives-priority" />
+        <module name="jpa-jpa-converter" />
+        <module name="jpa-datasourcedefinition-annotation-pu" />
+        <module name="servlet-error-mapping" />
+        <module name="cdi-nobeans-el-injection-flowscoped" />
+        <module name="websocket-websocket-client-programmatic-encoders" />
+        <module name="jsf-flows-declarative" />
+        <module name="jaxrs-filter" />
+        <module name="cdi-decorators" />
+        <module name="jms-jms-batch" />
+        <module name="jpa-schema-gen-scripts-generate" />
+        <module name="servlet-security-clientcert" />
+        <module name="jpa-listeners-injection" />
+        <module name="test-utils" />
+        <module name="servlet-security-clientcert-jce" />
+        <module name="jaxrs-readerwriter" />
+        <module name="jpa-datasourcedefinition-applicationxml-pu" />
+        <module name="json-object-builder" />
+        <module name="jpa-datasourcedefinition-webxml-pu" />
+        <module name="mdb-filewatcher" />
+        <module name="jaspic-custom-principal" />
+        <module name="jaxws-jaxws-endpoint" />
+        <module name="cdi-nobeans-el-injection" />
+        <module name="servlet-servlet-filters" />
+        <module name="batch-chunk-checkpoint" />
+        <module name="websocket-endpoint-programmatic" />
+        <module name="servlet-security-allow-uncovered" />
+        <module name="websocket-endpoint-programmatic-injection" />
+        <module name="cdi-pkg-level" />
+        <module name="jpa-native-sql-resultset-mapping" />
+        <module name="jpa-locking-optimistic" />
+        <module name="ejb-timer" />
+        <module name="websocket-messagesize" />
+        <module name="jacc-permissions-xml" />
+        <module name="jpa-storedprocedure" />
+        <module name="batch-batchlet-simple" />
+        <module name="websocket-subprotocol" />
+        <module name="jsf-viewscoped" />
+        <module name="jpa-dynamic-named-query" />
+        <module name="jaspic-async-authentication" />
+        <module name="cdi-bean-discovery-none" />
+        <module name="jsf-radio-buttons" />
+        <module name="servlet-web-fragment" />
+        <module name="websocket-endpoint-programmatic-config" />
+        <module name="jsf-bean-validation" />
+        <module name="jta-transactional" />
+        <module name="jsf-contracts-library-impl" />
+        <module name="dynamic-interceptor" />
+        <module name="jta-user-transaction" />
+        <module name="jsf-ajax" />
+        <module name="jaxrs-resource-validation" />
+        <module name="el-standalone" />
+        <module name="servlet-file-upload" />
+        <module name="servlet-async-servlet" />
+        <module name="validation-methods" />
+        <module name="jsf-resource-handling" />
+        <module name="jaspic-programmatic-authentication" />
+        <module name="jaxrs-link" />
+        <module name="jaxrs-client-negotiation" />
+        <module name="servlet-lib" />
+        <module name="jaxrs-invocation" />
+        <module name="servlet-protocol-handler" />
+        <module name="jaxrs-dynamicfilter" />
+        <module name="servlet-security-basicauth-omission" />
+        <module name="websocket-encoder-client" />
+        <module name="jaxrs-fileupload" />
+        <module name="websocket-parameters" />
+        <module name="jaspic-lifecycle" />
+        <module name="jaxrs-readerwriter-injection" />
+        <module name="ejb-stateless" />
+        <module name="cdi-vetoed" />
+        <module name="batch-chunk-mapper" />
+        <module name="websocket-websocket-client" />
+        <module name="jpa-criteria" />
+        <module name="websocket-websocket-vs-rest-payload" />
+        <module name="servlet-security-deny-uncovered" />
+        <module name="batch-split" />
+        <module name="jpa-schema-gen-metadata" />
+        <module name="ejb-singleton" />
+        <module name="jpa-ordercolumn" />
+        <module name="jaspic-status-codes" />
+        <module name="websocket-websocket-client-programmatic-config" />
+        <module name="websocket-endpoint-config" />
+        <module name="jsf-flows-programmatic" />
+        <module name="cdi-extension" />
+        <module name="jaxrs-async-server" />
+        <module name="servlet-security-programmatic" />
+        <module name="websocket-properties" />
+        <module name="jaxrs-filter-interceptor" />
+        <module name="websocket-encoder-programmatic" />
+        <module name="jaxrs-request-binding" />
+        <module name="jpa-multiple-pu" />
+        <module name="websocket-endpoint-async" />
+        <module name="jsf-file-upload" />
+        <module name="cdi-bean-discovery-all" />
+        <module name="jaxrs-jaxrs-endpoint" />
+        <module name="jsf-flows-simple" />
+        <module name="websocket-websocket-vs-rest" />
+        <module name="jacc-contexts" />
+        <module name="servlet-simple-servlet" />
+        <module name="jaxws-jaxws-client" />
+        <module name="ejb-async-ejb" />
+        <module name="websocket-endpoint-javatypes" />
+        <module name="jpa-unsynchronized-pc" />
+        <module name="cdi-built-in" />
+        <module name="jaspic-dispatching-jsf-cdi" />
+        <module name="cdi-beansxml-noversion" />
+        <module name="ejb-lifecycle" />
+        <module name="jsf-composite-component" />
+        <module name="empty-app-servlet-lib" />
+        <module name="simple-get" />
+        <module name="batch-chunk-exception" />
+        <module name="jpa-locking-pessimistic" />
+        <module name="jaxrs-beanvalidation" />
+        <module name="jpa-schema-gen-index" />
+        <module name="websocket-endpoint-programmatic-async" />
+        <module name="jpa-aggregate-function-in-select" />
+        <module name="servlet-cookies" />
+        <module name="jaspic-jacc-propagation" />
+        <module name="batch-chunk-simple" />
+        <module name="websocket-websocket-client-config" />
+        <module name="jsf-flows-mixed" />
+        <module name="jpa-native-sql" />
+        <module name="json-streaming-generate" />
+        <module name="jaxrs-jaxrs-client" />
+        <module name="jca-connector-simple-connector" />
+        <module name="jaxrs-invocation-async" />
+        <module name="jaxws-jaxws-endpoint-ejb" />
+        <module name="websocket-chat" />
+        <module name="jpa-listeners" />
+        <module name="jsf-components" />
+        <module name="servlet-security-basicauth" />
+        <module name="ejb-embeddable" />
+        <module name="jaspic-ejb-propagation" />
+        <module name="cdi-interceptors" />
+        <module name="cdi-decorators-builtin-beans" />
+        <module name="jaspic-register-session" />
+        <module name="jpa-jndi-context" />
+        <module name="jaspic-wrapping" />
+        <module name="websocket-endpoint" />
+        <module name="concurrency-managedexecutor" />
+        <module name="websocket-endpoint-singleton" />
+        <module name="websocket-injection" />
+        <module name="jaspic-common" />
+        <module name="cdi-bean-discovery-annotated" />
+        <module name="jaspic-dispatching" />
+        <module name="servlet-metadata-complete" />
+        <module name="cdi-alternatives" />
+        <module name="ejb-remote-roles-allowed" />
+        <module name="jpa-entitygraph" />
+        <module name="jaspic-basic-authentication" />
+        <module name="cdi-beanmanager" />
+        <module name="websocket-httpsession" />
+        <module name="jaspic-invoke-ejb-cdi" />
+        <module name="jsf-passthrough" />
+        <module name="security-annotated" />
+        <module name="batch-chunk-simple-nobeans" />
+        <module name="jms-send-receive" />
+        <module name="ejb-stateful" />
+        <module name="servlet-security-form-based" />
+        <module name="jaxrs-singleton" />
+        <module name="websocket-javase-client" />
+        <module name="batch-decision" />
+        <module name="servlet-programmatic-registration" />
+        <module name="batch-chunk-partition" />
+        <module name="jaxrs-beanparam" />
+        <module name="jaxrs-server-negotiation" />
+        <module name="jsf-contracts" />
+        <module name="jpa-schema-gen-scripts-external" />
+        <module name="servlet-resource-packaging" />
+        <module name="concurrency-dynamicproxy" />
+        <module name="validation-custom-constraint" />
+        <module name="jaxrs-jaxrs-security-declarative" />
+        <module name="concurrency-managedscheduledexecutor" />
+        <module name="websocket-whiteboard" />
+        <module name="servlet-security-digest" />
+        <module name="jpa-extended-pc" />
+        <module name="websocket-encoder" />
+        <module name="cdi-instance-qualifiers" />
+        <module name="cdi-scopes" />
+        <module name="jms-jms-xa" />
+        <module name="servlet-event-listeners" />
+        <module name="cdi-instance" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="batch" target="1.7" />
+      <module name="batch-batch-listeners" target="1.7" />
+      <module name="batch-batchlet-simple" target="1.7" />
+      <module name="batch-chunk-checkpoint" target="1.7" />
+      <module name="batch-chunk-csv-database" target="1.7" />
+      <module name="batch-chunk-exception" target="1.7" />
+      <module name="batch-chunk-mapper" target="1.7" />
+      <module name="batch-chunk-optional-processor" target="1.7" />
+      <module name="batch-chunk-partition" target="1.7" />
+      <module name="batch-chunk-simple" target="1.7" />
+      <module name="batch-chunk-simple-nobeans" target="1.7" />
+      <module name="batch-decision" target="1.7" />
+      <module name="batch-flow" target="1.7" />
+      <module name="batch-multiple-steps" target="1.7" />
+      <module name="batch-scheduling" target="1.7" />
+      <module name="batch-split" target="1.7" />
+      <module name="cdi" target="1.7" />
+      <module name="cdi-alternatives" target="1.7" />
+      <module name="cdi-alternatives-priority" target="1.7" />
+      <module name="cdi-bean-discovery-all" target="1.7" />
+      <module name="cdi-bean-discovery-annotated" target="1.7" />
+      <module name="cdi-bean-discovery-none" target="1.7" />
+      <module name="cdi-beanmanager" target="1.7" />
+      <module name="cdi-beansxml-noversion" target="1.7" />
+      <module name="cdi-built-in" target="1.7" />
+      <module name="cdi-decorators" target="1.7" />
+      <module name="cdi-decorators-builtin-beans" target="1.7" />
+      <module name="cdi-decorators-priority" target="1.7" />
+      <module name="cdi-events" target="1.7" />
+      <module name="cdi-events-conditional-reception" target="1.7" />
+      <module name="cdi-exclude-filter" target="1.7" />
+      <module name="cdi-extension" target="1.7" />
+      <module name="cdi-instance" target="1.7" />
+      <module name="cdi-instance-qualifiers" target="1.7" />
+      <module name="cdi-interceptors" target="1.7" />
+      <module name="cdi-interceptors-priority" target="1.7" />
+      <module name="cdi-nobeans-el-injection" target="1.7" />
+      <module name="cdi-nobeans-el-injection-flowscoped" target="1.7" />
+      <module name="cdi-nobeans-xml" target="1.7" />
+      <module name="cdi-pkg-level" target="1.7" />
+      <module name="cdi-scopes" target="1.7" />
+      <module name="cdi-vetoed" target="1.7" />
+      <module name="concurrency" target="1.7" />
+      <module name="concurrency-dynamicproxy" target="1.7" />
+      <module name="concurrency-managedexecutor" target="1.7" />
+      <module name="concurrency-managedscheduledexecutor" target="1.7" />
+      <module name="concurrency-managedthreadfactory" target="1.7" />
+      <module name="dynamic-interceptor" target="1.7" />
+      <module name="ejb" target="1.7" />
+      <module name="ejb-async-ejb" target="1.7" />
+      <module name="ejb-embeddable" target="1.7" />
+      <module name="ejb-lifecycle" target="1.7" />
+      <module name="ejb-remote" target="1.7" />
+      <module name="ejb-remote-roles-allowed" target="1.7" />
+      <module name="ejb-remote-vendor" target="1.7" />
+      <module name="ejb-singleton" target="1.7" />
+      <module name="ejb-stateful" target="1.7" />
+      <module name="ejb-stateless" target="1.7" />
+      <module name="ejb-timer" target="1.7" />
+      <module name="el" target="1.7" />
+      <module name="el-standalone" target="1.7" />
+      <module name="empty-app-servlet-lib" target="1.7" />
+      <module name="interceptor" target="1.7" />
+      <module name="interceptor-around-construct" target="1.7" />
+      <module name="jacc" target="1.7" />
+      <module name="jacc-contexts" target="1.7" />
+      <module name="jacc-permissions-xml" target="1.7" />
+      <module name="jaspic" target="1.7" />
+      <module name="jaspic-async-authentication" target="1.7" />
+      <module name="jaspic-basic-authentication" target="1.7" />
+      <module name="jaspic-common" target="1.7" />
+      <module name="jaspic-custom-principal" target="1.7" />
+      <module name="jaspic-dispatching" target="1.7" />
+      <module name="jaspic-dispatching-jsf-cdi" target="1.7" />
+      <module name="jaspic-ejb-propagation" target="1.7" />
+      <module name="jaspic-ejb-register-session" target="1.7" />
+      <module name="jaspic-invoke-ejb-cdi" target="1.7" />
+      <module name="jaspic-jacc-propagation" target="1.7" />
+      <module name="jaspic-lifecycle" target="1.7" />
+      <module name="jaspic-programmatic-authentication" target="1.7" />
+      <module name="jaspic-register-session" target="1.7" />
+      <module name="jaspic-status-codes" target="1.7" />
+      <module name="jaspic-wrapping" target="1.7" />
+      <module name="javamail" target="1.7" />
+      <module name="javamail-definition" target="1.7" />
+      <module name="jaxrs" target="1.7" />
+      <module name="jaxrs-async-client" target="1.7" />
+      <module name="jaxrs-async-server" target="1.7" />
+      <module name="jaxrs-beanparam" target="1.7" />
+      <module name="jaxrs-beanvalidation" target="1.7" />
+      <module name="jaxrs-client-negotiation" target="1.7" />
+      <module name="jaxrs-db-access" target="1.7" />
+      <module name="jaxrs-dynamicfilter" target="1.7" />
+      <module name="jaxrs-fileupload" target="1.7" />
+      <module name="jaxrs-filter" target="1.7" />
+      <module name="jaxrs-filter-interceptor" target="1.7" />
+      <module name="jaxrs-interceptor" target="1.7" />
+      <module name="jaxrs-invocation" target="1.7" />
+      <module name="jaxrs-invocation-async" target="1.7" />
+      <module name="jaxrs-jaxrs-client" target="1.7" />
+      <module name="jaxrs-jaxrs-endpoint" target="1.7" />
+      <module name="jaxrs-jaxrs-security-declarative" target="1.7" />
+      <module name="jaxrs-jsonp" target="1.7" />
+      <module name="jaxrs-link" target="1.7" />
+      <module name="jaxrs-mapping-exceptions" target="1.7" />
+      <module name="jaxrs-paramconverter" target="1.7" />
+      <module name="jaxrs-readerwriter" target="1.7" />
+      <module name="jaxrs-readerwriter-injection" target="1.7" />
+      <module name="jaxrs-readerwriter-json" target="1.7" />
+      <module name="jaxrs-request-binding" target="1.7" />
+      <module name="jaxrs-resource-validation" target="1.7" />
+      <module name="jaxrs-server-negotiation" target="1.7" />
+      <module name="jaxrs-singleton" target="1.7" />
+      <module name="jaxws" target="1.7" />
+      <module name="jaxws-jaxws-client" target="1.7" />
+      <module name="jaxws-jaxws-endpoint" target="1.7" />
+      <module name="jaxws-jaxws-endpoint-ejb" target="1.7" />
+      <module name="jca" target="1.7" />
+      <module name="jca-connector-simple-connector" target="1.7" />
+      <module name="jms" target="1.7" />
+      <module name="jms-jms-batch" target="1.7" />
+      <module name="jms-jms-xa" target="1.7" />
+      <module name="jms-send-receive" target="1.7" />
+      <module name="jms-temp-destination" target="1.7" />
+      <module name="jpa" target="1.7" />
+      <module name="jpa-aggregate-function-in-select" target="1.7" />
+      <module name="jpa-criteria" target="1.7" />
+      <module name="jpa-datasourcedefinition" target="1.7" />
+      <module name="jpa-datasourcedefinition-annotation-pu" target="1.7" />
+      <module name="jpa-datasourcedefinition-applicationxml-pu" target="1.7" />
+      <module name="jpa-datasourcedefinition-webxml-pu" target="1.7" />
+      <module name="jpa-default-datasource" target="1.7" />
+      <module name="jpa-dynamic-named-query" target="1.7" />
+      <module name="jpa-entitygraph" target="1.7" />
+      <module name="jpa-extended-pc" target="1.7" />
+      <module name="jpa-jndi-context" target="1.7" />
+      <module name="jpa-jpa-converter" target="1.7" />
+      <module name="jpa-listeners" target="1.7" />
+      <module name="jpa-listeners-injection" target="1.7" />
+      <module name="jpa-locking-optimistic" target="1.7" />
+      <module name="jpa-locking-pessimistic" target="1.7" />
+      <module name="jpa-multiple-pu" target="1.7" />
+      <module name="jpa-native-sql" target="1.7" />
+      <module name="jpa-native-sql-resultset-mapping" target="1.7" />
+      <module name="jpa-ordercolumn" target="1.7" />
+      <module name="jpa-pu-typesafe" target="1.7" />
+      <module name="jpa-schema-gen-index" target="1.7" />
+      <module name="jpa-schema-gen-metadata" target="1.7" />
+      <module name="jpa-schema-gen-scripts" target="1.7" />
+      <module name="jpa-schema-gen-scripts-external" target="1.7" />
+      <module name="jpa-schema-gen-scripts-generate" target="1.7" />
+      <module name="jpa-storedprocedure" target="1.7" />
+      <module name="jpa-unsynchronized-pc" target="1.7" />
+      <module name="jsf" target="1.7" />
+      <module name="jsf-ajax" target="1.7" />
+      <module name="jsf-bean-validation" target="1.7" />
+      <module name="jsf-components" target="1.7" />
+      <module name="jsf-composite-component" target="1.7" />
+      <module name="jsf-contracts" target="1.7" />
+      <module name="jsf-contracts-library" target="1.7" />
+      <module name="jsf-contracts-library-impl" target="1.7" />
+      <module name="jsf-file-upload" target="1.7" />
+      <module name="jsf-flows-declarative" target="1.7" />
+      <module name="jsf-flows-mixed" target="1.7" />
+      <module name="jsf-flows-programmatic" target="1.7" />
+      <module name="jsf-flows-simple" target="1.7" />
+      <module name="jsf-http-get" target="1.7" />
+      <module name="jsf-passthrough" target="1.7" />
+      <module name="jsf-radio-buttons" target="1.7" />
+      <module name="jsf-resource-handling" target="1.7" />
+      <module name="jsf-server-extension" target="1.7" />
+      <module name="jsf-viewscoped" target="1.7" />
+      <module name="json" target="1.7" />
+      <module name="json-object-builder" target="1.7" />
+      <module name="json-object-reader" target="1.7" />
+      <module name="json-streaming-generate" target="1.7" />
+      <module name="json-streaming-parser" target="1.7" />
+      <module name="jta" target="1.7" />
+      <module name="jta-transactional" target="1.7" />
+      <module name="jta-tx-exception" target="1.7" />
+      <module name="jta-user-transaction" target="1.7" />
+      <module name="mdb-filewatcher" target="1.7" />
+      <module name="samples-parent" target="1.7" />
+      <module name="security-annotated" target="1.7" />
+      <module name="servlet" target="1.7" />
+      <module name="servlet-async-servlet" target="1.7" />
+      <module name="servlet-cookies" target="1.7" />
+      <module name="servlet-error-mapping" target="1.7" />
+      <module name="servlet-event-listeners" target="1.7" />
+      <module name="servlet-file-upload" target="1.7" />
+      <module name="servlet-lib" target="1.7" />
+      <module name="servlet-libs" target="1.7" />
+      <module name="servlet-metadata-complete" target="1.7" />
+      <module name="servlet-nonblocking" target="1.7" />
+      <module name="servlet-programmatic-registration" target="1.7" />
+      <module name="servlet-protocol-handler" target="1.7" />
+      <module name="servlet-resource-packaging" target="1.7" />
+      <module name="servlet-security-allow-uncovered" target="1.7" />
+      <module name="servlet-security-basicauth" target="1.7" />
+      <module name="servlet-security-basicauth-omission" target="1.7" />
+      <module name="servlet-security-clientcert" target="1.7" />
+      <module name="servlet-security-clientcert-jce" target="1.7" />
+      <module name="servlet-security-deny-uncovered" target="1.7" />
+      <module name="servlet-security-digest" target="1.7" />
+      <module name="servlet-security-form-based" target="1.7" />
+      <module name="servlet-security-programmatic" target="1.7" />
+      <module name="servlet-servlet-filters" target="1.7" />
+      <module name="servlet-simple-servlet" target="1.7" />
+      <module name="servlet-web-fragment" target="1.7" />
+      <module name="simple-get" target="1.7" />
+      <module name="test-utils" target="1.7" />
+      <module name="validation" target="1.7" />
+      <module name="validation-custom-constraint" target="1.7" />
+      <module name="validation-methods" target="1.7" />
+      <module name="websocket" target="1.7" />
+      <module name="websocket-chat" target="1.7" />
+      <module name="websocket-encoder" target="1.7" />
+      <module name="websocket-encoder-client" target="1.7" />
+      <module name="websocket-encoder-programmatic" target="1.7" />
+      <module name="websocket-endpoint" target="1.7" />
+      <module name="websocket-endpoint-async" target="1.7" />
+      <module name="websocket-endpoint-config" target="1.7" />
+      <module name="websocket-endpoint-javatypes" target="1.7" />
+      <module name="websocket-endpoint-programmatic" target="1.7" />
+      <module name="websocket-endpoint-programmatic-async" target="1.7" />
+      <module name="websocket-endpoint-programmatic-config" target="1.7" />
+      <module name="websocket-endpoint-programmatic-injection" target="1.7" />
+      <module name="websocket-endpoint-security" target="1.7" />
+      <module name="websocket-endpoint-singleton" target="1.7" />
+      <module name="websocket-httpsession" target="1.7" />
+      <module name="websocket-injection" target="1.7" />
+      <module name="websocket-javase-client" target="1.7" />
+      <module name="websocket-messagesize" target="1.7" />
+      <module name="websocket-parameters" target="1.7" />
+      <module name="websocket-properties" target="1.7" />
+      <module name="websocket-subprotocol" target="1.7" />
+      <module name="websocket-websocket-client" target="1.7" />
+      <module name="websocket-websocket-client-config" target="1.7" />
+      <module name="websocket-websocket-client-programmatic" target="1.7" />
+      <module name="websocket-websocket-client-programmatic-config" target="1.7" />
+      <module name="websocket-websocket-client-programmatic-encoders" target="1.7" />
+      <module name="websocket-websocket-vs-rest" target="1.7" />
+      <module name="websocket-websocket-vs-rest-payload" target="1.7" />
+      <module name="websocket-whiteboard" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

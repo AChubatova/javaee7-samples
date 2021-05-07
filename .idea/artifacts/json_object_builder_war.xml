@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="json-object-builder:war">
+    <output-path>$PROJECT_DIR$/json/object-builder/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>json-object-builder</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="json-object-builder.war">
+      <element id="artifact" artifact-name="json-object-builder:war exploded" />
+    </root>
+  </artifact>
+</component>

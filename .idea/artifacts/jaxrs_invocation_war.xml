@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaxrs-invocation:war">
+    <output-path>$PROJECT_DIR$/jaxrs/invocation/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaxrs-invocation</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaxrs-invocation.war">
+      <element id="artifact" artifact-name="jaxrs-invocation:war exploded" />
+    </root>
+  </artifact>
+</component>

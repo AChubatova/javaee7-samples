@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="javamail-definition:war">
+    <output-path>$PROJECT_DIR$/javamail/definition/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>javamail-definition</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="javamail-definition.war">
+      <element id="artifact" artifact-name="javamail-definition:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-native-sql-resultset-mapping:war">
+    <output-path>$PROJECT_DIR$/jpa/native-sql-resultset-mapping/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-native-sql-resultset-mapping</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-native-sql-resultset-mapping.war">
+      <element id="artifact" artifact-name="jpa-native-sql-resultset-mapping:war exploded" />
+    </root>
+  </artifact>
+</component>

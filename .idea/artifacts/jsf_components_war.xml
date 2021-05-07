@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jsf-components:war">
+    <output-path>$PROJECT_DIR$/jsf/components/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jsf-components</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jsf-components.war">
+      <element id="artifact" artifact-name="jsf-components:war exploded" />
+    </root>
+  </artifact>
+</component>

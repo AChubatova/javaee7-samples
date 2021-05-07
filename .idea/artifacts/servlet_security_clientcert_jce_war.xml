@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlet-security-clientcert-jce:war">
+    <output-path>$PROJECT_DIR$/servlet/security-clientcert-jce/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>servlet-security-clientcert-jce</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="servlet-security-clientcert-jce.war">
+      <element id="artifact" artifact-name="servlet-security-clientcert-jce:war exploded" />
+    </root>
+  </artifact>
+</component>

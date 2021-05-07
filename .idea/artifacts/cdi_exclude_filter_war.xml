@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cdi-exclude-filter:war">
+    <output-path>$PROJECT_DIR$/cdi/exclude-filter/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cdi-exclude-filter</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cdi-exclude-filter.war">
+      <element id="artifact" artifact-name="cdi-exclude-filter:war exploded" />
+    </root>
+  </artifact>
+</component>

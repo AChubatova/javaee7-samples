@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jms-temp-destination:war">
+    <output-path>$PROJECT_DIR$/jms/temp-destination/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jms-temp-destination</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jms-temp-destination.war">
+      <element id="artifact" artifact-name="jms-temp-destination:war exploded" />
+    </root>
+  </artifact>
+</component>

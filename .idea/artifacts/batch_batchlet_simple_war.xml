@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="batch-batchlet-simple:war">
+    <output-path>$PROJECT_DIR$/batch/batchlet-simple/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>batch-batchlet-simple</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="batch-batchlet-simple.war">
+      <element id="artifact" artifact-name="batch-batchlet-simple:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ejb-remote-roles-allowed:war">
+    <output-path>$PROJECT_DIR$/ejb/remote/roles-allowed/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ejb-remote-roles-allowed</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ejb-remote-roles-allowed.war">
+      <element id="artifact" artifact-name="ejb-remote-roles-allowed:war exploded" />
+    </root>
+  </artifact>
+</component>

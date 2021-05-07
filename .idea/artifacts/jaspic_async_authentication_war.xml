@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaspic-async-authentication:war">
+    <output-path>$PROJECT_DIR$/jaspic/async-authentication/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaspic-async-authentication</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaspic-async-authentication.war">
+      <element id="artifact" artifact-name="jaspic-async-authentication:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jacc-permissions-xml:war">
+    <output-path>$PROJECT_DIR$/jacc/permissions-xml/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jacc-permissions-xml</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jacc-permissions-xml.war">
+      <element id="artifact" artifact-name="jacc-permissions-xml:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaxrs-jaxrs-security-declarative:war">
+    <output-path>$PROJECT_DIR$/jaxrs/jaxrs-security-declarative/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaxrs-jaxrs-security-declarative</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaxrs-jaxrs-security-declarative.war">
+      <element id="artifact" artifact-name="jaxrs-jaxrs-security-declarative:war exploded" />
+    </root>
+  </artifact>
+</component>

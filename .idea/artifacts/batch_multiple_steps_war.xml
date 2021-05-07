@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="batch-multiple-steps:war">
+    <output-path>$PROJECT_DIR$/batch/multiple-steps/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>batch-multiple-steps</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="batch-multiple-steps.war">
+      <element id="artifact" artifact-name="batch-multiple-steps:war exploded" />
+    </root>
+  </artifact>
+</component>

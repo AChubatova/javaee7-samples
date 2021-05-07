@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaxrs-fileupload:war">
+    <output-path>$PROJECT_DIR$/jaxrs/fileupload/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaxrs-fileupload</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaxrs-fileupload.war">
+      <element id="artifact" artifact-name="jaxrs-fileupload:war exploded" />
+    </root>
+  </artifact>
+</component>

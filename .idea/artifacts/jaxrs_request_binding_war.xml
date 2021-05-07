@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaxrs-request-binding:war">
+    <output-path>$PROJECT_DIR$/jaxrs/request-binding/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaxrs-request-binding</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaxrs-request-binding.war">
+      <element id="artifact" artifact-name="jaxrs-request-binding:war exploded" />
+    </root>
+  </artifact>
+</component>

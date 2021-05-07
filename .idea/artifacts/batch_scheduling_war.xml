@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="batch-scheduling:war">
+    <output-path>$PROJECT_DIR$/batch/scheduling/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>batch-scheduling</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="batch-scheduling.war">
+      <element id="artifact" artifact-name="batch-scheduling:war exploded" />
+    </root>
+  </artifact>
+</component>

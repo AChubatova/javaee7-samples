@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cdi-built-in:war">
+    <output-path>$PROJECT_DIR$/cdi/built-in/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cdi-built-in</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cdi-built-in.war">
+      <element id="artifact" artifact-name="cdi-built-in:war exploded" />
+    </root>
+  </artifact>
+</component>

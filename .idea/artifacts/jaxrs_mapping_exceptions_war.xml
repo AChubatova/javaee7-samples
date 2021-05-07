@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaxrs-mapping-exceptions:war">
+    <output-path>$PROJECT_DIR$/jaxrs/mapping-exceptions/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaxrs-mapping-exceptions</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaxrs-mapping-exceptions.war">
+      <element id="artifact" artifact-name="jaxrs-mapping-exceptions:war exploded" />
+    </root>
+  </artifact>
+</component>

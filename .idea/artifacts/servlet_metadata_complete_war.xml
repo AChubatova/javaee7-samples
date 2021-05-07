@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlet-metadata-complete:war">
+    <output-path>$PROJECT_DIR$/servlet/metadata-complete/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>servlet-metadata-complete</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="servlet-metadata-complete.war">
+      <element id="artifact" artifact-name="servlet-metadata-complete:war exploded" />
+    </root>
+  </artifact>
+</component>

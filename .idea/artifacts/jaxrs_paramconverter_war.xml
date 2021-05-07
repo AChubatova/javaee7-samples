@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaxrs-paramconverter:war">
+    <output-path>$PROJECT_DIR$/jaxrs/paramconverter/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaxrs-paramconverter</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaxrs-paramconverter.war">
+      <element id="artifact" artifact-name="jaxrs-paramconverter:war exploded" />
+    </root>
+  </artifact>
+</component>

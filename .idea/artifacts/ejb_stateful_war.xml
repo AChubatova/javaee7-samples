@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ejb-stateful:war">
+    <output-path>$PROJECT_DIR$/ejb/stateful/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ejb-stateful</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ejb-stateful.war">
+      <element id="artifact" artifact-name="ejb-stateful:war exploded" />
+    </root>
+  </artifact>
+</component>

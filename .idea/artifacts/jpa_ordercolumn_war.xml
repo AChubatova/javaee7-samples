@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-ordercolumn:war">
+    <output-path>$PROJECT_DIR$/jpa/ordercolumn/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-ordercolumn</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-ordercolumn.war">
+      <element id="artifact" artifact-name="jpa-ordercolumn:war exploded" />
+    </root>
+  </artifact>
+</component>

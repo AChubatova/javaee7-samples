@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlet-error-mapping:war">
+    <output-path>$PROJECT_DIR$/servlet/error-mapping/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>servlet-error-mapping</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="servlet-error-mapping.war">
+      <element id="artifact" artifact-name="servlet-error-mapping:war exploded" />
+    </root>
+  </artifact>
+</component>

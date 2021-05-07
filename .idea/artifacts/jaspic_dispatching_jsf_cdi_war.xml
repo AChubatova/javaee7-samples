@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaspic-dispatching-jsf-cdi:war">
+    <output-path>$PROJECT_DIR$/jaspic/dispatching-jsf-cdi/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaspic-dispatching-jsf-cdi</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaspic-dispatching-jsf-cdi.war">
+      <element id="artifact" artifact-name="jaspic-dispatching-jsf-cdi:war exploded" />
+    </root>
+  </artifact>
+</component>

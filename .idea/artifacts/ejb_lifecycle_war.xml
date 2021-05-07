@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ejb-lifecycle:war">
+    <output-path>$PROJECT_DIR$/ejb/lifecycle/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ejb-lifecycle</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ejb-lifecycle.war">
+      <element id="artifact" artifact-name="ejb-lifecycle:war exploded" />
+    </root>
+  </artifact>
+</component>

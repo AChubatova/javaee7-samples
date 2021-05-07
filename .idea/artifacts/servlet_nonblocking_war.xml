@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlet-nonblocking:war">
+    <output-path>$PROJECT_DIR$/servlet/nonblocking/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>servlet-nonblocking</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="servlet-nonblocking.war">
+      <element id="artifact" artifact-name="servlet-nonblocking:war exploded" />
+    </root>
+  </artifact>
+</component>

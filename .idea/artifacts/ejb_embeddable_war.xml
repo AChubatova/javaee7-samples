@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ejb-embeddable:war">
+    <output-path>$PROJECT_DIR$/ejb/embeddable/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ejb-embeddable</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ejb-embeddable.war">
+      <element id="artifact" artifact-name="ejb-embeddable:war exploded" />
+    </root>
+  </artifact>
+</component>

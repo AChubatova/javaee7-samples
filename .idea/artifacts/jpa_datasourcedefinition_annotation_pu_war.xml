@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-datasourcedefinition-annotation-pu:war">
+    <output-path>$PROJECT_DIR$/jpa/datasourcedefinition-annotation-pu/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-datasourcedefinition-annotation-pu</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-datasourcedefinition-annotation-pu.war">
+      <element id="artifact" artifact-name="jpa-datasourcedefinition-annotation-pu:war exploded" />
+    </root>
+  </artifact>
+</component>

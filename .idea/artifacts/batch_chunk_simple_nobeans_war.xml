@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="batch-chunk-simple-nobeans:war">
+    <output-path>$PROJECT_DIR$/batch/chunk-simple-nobeans/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>batch-chunk-simple-nobeans</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="batch-chunk-simple-nobeans.war">
+      <element id="artifact" artifact-name="batch-chunk-simple-nobeans:war exploded" />
+    </root>
+  </artifact>
+</component>

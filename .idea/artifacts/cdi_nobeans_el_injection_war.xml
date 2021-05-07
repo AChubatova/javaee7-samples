@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cdi-nobeans-el-injection:war">
+    <output-path>$PROJECT_DIR$/cdi/nobeans-el-injection/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cdi-nobeans-el-injection</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cdi-nobeans-el-injection.war">
+      <element id="artifact" artifact-name="cdi-nobeans-el-injection:war exploded" />
+    </root>
+  </artifact>
+</component>

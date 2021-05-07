@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlet-event-listeners:war">
+    <output-path>$PROJECT_DIR$/servlet/event-listeners/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>servlet-event-listeners</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="servlet-event-listeners.war">
+      <element id="artifact" artifact-name="servlet-event-listeners:war exploded" />
+    </root>
+  </artifact>
+</component>

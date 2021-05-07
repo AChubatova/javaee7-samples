@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cdi-pkg-level:war">
+    <output-path>$PROJECT_DIR$/cdi/pkg-level/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cdi-pkg-level</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cdi-pkg-level.war">
+      <element id="artifact" artifact-name="cdi-pkg-level:war exploded" />
+    </root>
+  </artifact>
+</component>

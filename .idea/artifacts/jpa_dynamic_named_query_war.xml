@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-dynamic-named-query:war">
+    <output-path>$PROJECT_DIR$/jpa/dynamic-named-query/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-dynamic-named-query</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-dynamic-named-query.war">
+      <element id="artifact" artifact-name="jpa-dynamic-named-query:war exploded" />
+    </root>
+  </artifact>
+</component>

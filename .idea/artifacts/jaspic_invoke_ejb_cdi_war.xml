@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaspic-invoke-ejb-cdi:war">
+    <output-path>$PROJECT_DIR$/jaspic/invoke-ejb-cdi/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaspic-invoke-ejb-cdi</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaspic-invoke-ejb-cdi.war">
+      <element id="artifact" artifact-name="jaspic-invoke-ejb-cdi:war exploded" />
+    </root>
+  </artifact>
+</component>

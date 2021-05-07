@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="batch-chunk-csv-database:war">
+    <output-path>$PROJECT_DIR$/batch/chunk-csv-database/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>batch-chunk-csv-database</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="batch-chunk-csv-database.war">
+      <element id="artifact" artifact-name="batch-chunk-csv-database:war exploded" />
+    </root>
+  </artifact>
+</component>

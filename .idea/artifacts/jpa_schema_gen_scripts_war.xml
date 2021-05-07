@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-schema-gen-scripts:war">
+    <output-path>$PROJECT_DIR$/jpa/schema-gen-scripts/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-schema-gen-scripts</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-schema-gen-scripts.war">
+      <element id="artifact" artifact-name="jpa-schema-gen-scripts:war exploded" />
+    </root>
+  </artifact>
+</component>

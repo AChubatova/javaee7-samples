@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="el-standalone:war">
+    <output-path>$PROJECT_DIR$/el/standalone/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>el-standalone</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="el-standalone.war">
+      <element id="artifact" artifact-name="el-standalone:war exploded" />
+    </root>
+  </artifact>
+</component>

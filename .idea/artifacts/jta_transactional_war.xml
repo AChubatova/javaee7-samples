@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jta-transactional:war">
+    <output-path>$PROJECT_DIR$/jta/transactional/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jta-transactional</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jta-transactional.war">
+      <element id="artifact" artifact-name="jta-transactional:war exploded" />
+    </root>
+  </artifact>
+</component>

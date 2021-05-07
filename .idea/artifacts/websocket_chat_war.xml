@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="websocket-chat:war">
+    <output-path>$PROJECT_DIR$/websocket/chat/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>websocket-chat</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="websocket-chat.war">
+      <element id="artifact" artifact-name="websocket-chat:war exploded" />
+    </root>
+  </artifact>
+</component>

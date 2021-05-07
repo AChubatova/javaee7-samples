@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlet-file-upload:war">
+    <output-path>$PROJECT_DIR$/servlet/file-upload/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>servlet-file-upload</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="servlet-file-upload.war">
+      <element id="artifact" artifact-name="servlet-file-upload:war exploded" />
+    </root>
+  </artifact>
+</component>

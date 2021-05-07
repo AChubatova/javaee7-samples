@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jsf-contracts-library:war">
+    <output-path>$PROJECT_DIR$/jsf/contracts-library/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jsf-contracts-library</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jsf-contracts-library.war">
+      <element id="artifact" artifact-name="jsf-contracts-library:war exploded" />
+    </root>
+  </artifact>
+</component>

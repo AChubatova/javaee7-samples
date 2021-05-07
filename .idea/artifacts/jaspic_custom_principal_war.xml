@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaspic-custom-principal:war">
+    <output-path>$PROJECT_DIR$/jaspic/custom-principal/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaspic-custom-principal</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaspic-custom-principal.war">
+      <element id="artifact" artifact-name="jaspic-custom-principal:war exploded" />
+    </root>
+  </artifact>
+</component>

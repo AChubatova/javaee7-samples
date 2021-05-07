@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="empty-app-servlet-lib:war">
+    <output-path>$PROJECT_DIR$/servlet/servlet-libs/empty-app-servlet-lib/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>empty-app-servlet-lib</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="empty-app-servlet-lib.war">
+      <element id="artifact" artifact-name="empty-app-servlet-lib:war exploded" />
+    </root>
+  </artifact>
+</component>

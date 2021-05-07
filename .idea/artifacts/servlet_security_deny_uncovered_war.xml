@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlet-security-deny-uncovered:war">
+    <output-path>$PROJECT_DIR$/servlet/security-deny-uncovered/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>servlet-security-deny-uncovered</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="servlet-security-deny-uncovered.war">
+      <element id="artifact" artifact-name="servlet-security-deny-uncovered:war exploded" />
+    </root>
+  </artifact>
+</component>

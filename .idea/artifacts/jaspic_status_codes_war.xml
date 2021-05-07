@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaspic-status-codes:war">
+    <output-path>$PROJECT_DIR$/jaspic/status-codes/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaspic-status-codes</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaspic-status-codes.war">
+      <element id="artifact" artifact-name="jaspic-status-codes:war exploded" />
+    </root>
+  </artifact>
+</component>

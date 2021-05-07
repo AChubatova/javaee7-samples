@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaspic-wrapping:war">
+    <output-path>$PROJECT_DIR$/jaspic/wrapping/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaspic-wrapping</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaspic-wrapping.war">
+      <element id="artifact" artifact-name="jaspic-wrapping:war exploded" />
+    </root>
+  </artifact>
+</component>

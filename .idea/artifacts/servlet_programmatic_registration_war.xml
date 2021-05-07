@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlet-programmatic-registration:war">
+    <output-path>$PROJECT_DIR$/servlet/programmatic-registration/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>servlet-programmatic-registration</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="servlet-programmatic-registration.war">
+      <element id="artifact" artifact-name="servlet-programmatic-registration:war exploded" />
+    </root>
+  </artifact>
+</component>

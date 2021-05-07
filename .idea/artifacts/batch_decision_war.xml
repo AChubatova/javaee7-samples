@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="batch-decision:war">
+    <output-path>$PROJECT_DIR$/batch/decision/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>batch-decision</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="batch-decision.war">
+      <element id="artifact" artifact-name="batch-decision:war exploded" />
+    </root>
+  </artifact>
+</component>

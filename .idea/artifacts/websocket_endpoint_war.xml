@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="websocket-endpoint:war">
+    <output-path>$PROJECT_DIR$/websocket/endpoint/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>websocket-endpoint</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="websocket-endpoint.war">
+      <element id="artifact" artifact-name="websocket-endpoint:war exploded" />
+    </root>
+  </artifact>
+</component>

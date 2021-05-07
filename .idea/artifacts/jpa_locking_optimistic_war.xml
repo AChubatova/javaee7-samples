@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-locking-optimistic:war">
+    <output-path>$PROJECT_DIR$/jpa/locking-optimistic/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-locking-optimistic</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-locking-optimistic.war">
+      <element id="artifact" artifact-name="jpa-locking-optimistic:war exploded" />
+    </root>
+  </artifact>
+</component>

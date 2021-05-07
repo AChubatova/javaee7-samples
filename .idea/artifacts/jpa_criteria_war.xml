@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-criteria:war">
+    <output-path>$PROJECT_DIR$/jpa/criteria/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-criteria</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-criteria.war">
+      <element id="artifact" artifact-name="jpa-criteria:war exploded" />
+    </root>
+  </artifact>
+</component>

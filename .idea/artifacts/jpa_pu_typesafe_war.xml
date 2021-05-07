@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-pu-typesafe:war">
+    <output-path>$PROJECT_DIR$/jpa/pu-typesafe/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-pu-typesafe</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-pu-typesafe.war">
+      <element id="artifact" artifact-name="jpa-pu-typesafe:war exploded" />
+    </root>
+  </artifact>
+</component>

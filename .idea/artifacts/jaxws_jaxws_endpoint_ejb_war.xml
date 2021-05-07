@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaxws-jaxws-endpoint-ejb:war">
+    <output-path>$PROJECT_DIR$/jaxws/jaxws-endpoint-ejb/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaxws-jaxws-endpoint-ejb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaxws-endpoint-ejb.war">
+      <element id="artifact" artifact-name="jaxws-jaxws-endpoint-ejb:war exploded" />
+    </root>
+  </artifact>
+</component>

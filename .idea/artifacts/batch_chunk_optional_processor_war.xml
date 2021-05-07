@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="batch-chunk-optional-processor:war">
+    <output-path>$PROJECT_DIR$/batch/chunk-optional-processor/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>batch-chunk-optional-processor</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="batch-chunk-optional-processor.war">
+      <element id="artifact" artifact-name="batch-chunk-optional-processor:war exploded" />
+    </root>
+  </artifact>
+</component>

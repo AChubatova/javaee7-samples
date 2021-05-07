@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jsf-flows-programmatic:war">
+    <output-path>$PROJECT_DIR$/jsf/flows-programmatic/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jsf-flows-programmatic</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jsf-flows-programmatic.war">
+      <element id="artifact" artifact-name="jsf-flows-programmatic:war exploded" />
+    </root>
+  </artifact>
+</component>

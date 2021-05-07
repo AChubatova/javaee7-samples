@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jsf-flows-mixed:war">
+    <output-path>$PROJECT_DIR$/jsf/flows-mixed/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jsf-flows-mixed</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jsf-flows-mixed.war">
+      <element id="artifact" artifact-name="jsf-flows-mixed:war exploded" />
+    </root>
+  </artifact>
+</component>

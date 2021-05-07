@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-unsynchronized-pc:war">
+    <output-path>$PROJECT_DIR$/jpa/unsynchronized-pc/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-unsynchronized-pc</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-unsynchronized-pc.war">
+      <element id="artifact" artifact-name="jpa-unsynchronized-pc:war exploded" />
+    </root>
+  </artifact>
+</component>

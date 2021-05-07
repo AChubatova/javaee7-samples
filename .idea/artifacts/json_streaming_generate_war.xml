@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="json-streaming-generate:war">
+    <output-path>$PROJECT_DIR$/json/streaming-generate/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>json-streaming-generate</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="json-streaming-generate.war">
+      <element id="artifact" artifact-name="json-streaming-generate:war exploded" />
+    </root>
+  </artifact>
+</component>

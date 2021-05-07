@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-multiple-pu:war">
+    <output-path>$PROJECT_DIR$/jpa/multiple-pu/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-multiple-pu</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-multiple-pu.war">
+      <element id="artifact" artifact-name="jpa-multiple-pu:war exploded" />
+    </root>
+  </artifact>
+</component>

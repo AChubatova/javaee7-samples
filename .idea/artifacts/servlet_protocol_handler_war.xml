@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlet-protocol-handler:war">
+    <output-path>$PROJECT_DIR$/servlet/protocol-handler/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>servlet-protocol-handler</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="servlet-protocol-handler.war">
+      <element id="artifact" artifact-name="servlet-protocol-handler:war exploded" />
+    </root>
+  </artifact>
+</component>

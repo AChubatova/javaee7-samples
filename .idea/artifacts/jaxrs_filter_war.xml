@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaxrs-filter:war">
+    <output-path>$PROJECT_DIR$/jaxrs/filter/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaxrs-filter</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaxrs-filter.war">
+      <element id="artifact" artifact-name="jaxrs-filter:war exploded" />
+    </root>
+  </artifact>
+</component>

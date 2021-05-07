@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="batch-chunk-mapper:war">
+    <output-path>$PROJECT_DIR$/batch/chunk-mapper/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>batch-chunk-mapper</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="batch-chunk-mapper.war">
+      <element id="artifact" artifact-name="batch-chunk-mapper:war exploded" />
+    </root>
+  </artifact>
+</component>

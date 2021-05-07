@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaspic-programmatic-authentication:war">
+    <output-path>$PROJECT_DIR$/jaspic/programmatic-authentication/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaspic-programmatic-authentication</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaspic-programmatic-authentication.war">
+      <element id="artifact" artifact-name="jaspic-programmatic-authentication:war exploded" />
+    </root>
+  </artifact>
+</component>

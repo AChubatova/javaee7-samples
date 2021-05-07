@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="websocket-endpoint-programmatic-injection:war">
+    <output-path>$PROJECT_DIR$/websocket/endpoint-programmatic-injection/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>websocket-endpoint-programmatic-injection</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="websocket-endpoint-programmatic-injection.war">
+      <element id="artifact" artifact-name="websocket-endpoint-programmatic-injection:war exploded" />
+    </root>
+  </artifact>
+</component>

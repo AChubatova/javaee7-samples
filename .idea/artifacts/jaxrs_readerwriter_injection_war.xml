@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaxrs-readerwriter-injection:war">
+    <output-path>$PROJECT_DIR$/jaxrs/readerwriter-injection/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaxrs-readerwriter-injection</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaxrs-readerwriter-injection.war">
+      <element id="artifact" artifact-name="jaxrs-readerwriter-injection:war exploded" />
+    </root>
+  </artifact>
+</component>

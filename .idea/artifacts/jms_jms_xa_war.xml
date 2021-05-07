@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jms-jms-xa:war">
+    <output-path>$PROJECT_DIR$/jms/jms-xa/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jms-jms-xa</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jms-jms-xa.war">
+      <element id="artifact" artifact-name="jms-jms-xa:war exploded" />
+    </root>
+  </artifact>
+</component>

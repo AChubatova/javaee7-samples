@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlet-resource-packaging:war">
+    <output-path>$PROJECT_DIR$/servlet/resource-packaging/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>servlet-resource-packaging</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="servlet-resource-packaging.war">
+      <element id="artifact" artifact-name="servlet-resource-packaging:war exploded" />
+    </root>
+  </artifact>
+</component>

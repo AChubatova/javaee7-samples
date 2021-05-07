@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaxrs-dynamicfilter:war">
+    <output-path>$PROJECT_DIR$/jaxrs/dynamicfilter/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaxrs-dynamicfilter</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaxrs-dynamicfilter.war">
+      <element id="artifact" artifact-name="jaxrs-dynamicfilter:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ejb-singleton:war">
+    <output-path>$PROJECT_DIR$/ejb/singleton/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ejb-singleton</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ejb-singleton.war">
+      <element id="artifact" artifact-name="ejb-singleton:war exploded" />
+    </root>
+  </artifact>
+</component>

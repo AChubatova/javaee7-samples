@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="websocket-whiteboard:war">
+    <output-path>$PROJECT_DIR$/websocket/whiteboard/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>websocket-whiteboard</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="websocket-whiteboard.war">
+      <element id="artifact" artifact-name="websocket-whiteboard:war exploded" />
+    </root>
+  </artifact>
+</component>

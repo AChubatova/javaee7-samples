@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaxrs-singleton:war">
+    <output-path>$PROJECT_DIR$/jaxrs/singleton/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaxrs-singleton</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaxrs-singleton.war">
+      <element id="artifact" artifact-name="jaxrs-singleton:war exploded" />
+    </root>
+  </artifact>
+</component>

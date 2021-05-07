@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-aggregate-function-in-select:war">
+    <output-path>$PROJECT_DIR$/jpa/aggregate-function-in-select/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-aggregate-function-in-select</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-aggregate-function-in-select.war">
+      <element id="artifact" artifact-name="jpa-aggregate-function-in-select:war exploded" />
+    </root>
+  </artifact>
+</component>

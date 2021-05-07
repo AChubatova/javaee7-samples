@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaxrs-server-negotiation:war">
+    <output-path>$PROJECT_DIR$/jaxrs/server-negotiation/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaxrs-server-negotiation</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaxrs-server-negotiation.war">
+      <element id="artifact" artifact-name="jaxrs-server-negotiation:war exploded" />
+    </root>
+  </artifact>
+</component>

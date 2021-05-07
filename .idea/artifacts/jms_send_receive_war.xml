@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jms-send-receive:war">
+    <output-path>$PROJECT_DIR$/jms/send-receive/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jms-send-receive</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jms-send-receive.war">
+      <element id="artifact" artifact-name="jms-send-receive:war exploded" />
+    </root>
+  </artifact>
+</component>

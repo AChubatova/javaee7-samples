@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="websocket-httpsession:war">
+    <output-path>$PROJECT_DIR$/websocket/httpsession/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>websocket-httpsession</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="websocket-httpsession.war">
+      <element id="artifact" artifact-name="websocket-httpsession:war exploded" />
+    </root>
+  </artifact>
+</component>

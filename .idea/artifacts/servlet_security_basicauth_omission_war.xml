@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlet-security-basicauth-omission:war">
+    <output-path>$PROJECT_DIR$/servlet/security-basicauth-omission/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>servlet-security-basicauth-omission</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="servlet-security-basicauth-omission.war">
+      <element id="artifact" artifact-name="servlet-security-basicauth-omission:war exploded" />
+    </root>
+  </artifact>
+</component>

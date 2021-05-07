@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cdi-scopes:war">
+    <output-path>$PROJECT_DIR$/cdi/scopes/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cdi-scopes</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cdi-scopes.war">
+      <element id="artifact" artifact-name="cdi-scopes:war exploded" />
+    </root>
+  </artifact>
+</component>

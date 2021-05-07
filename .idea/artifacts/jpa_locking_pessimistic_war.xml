@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-locking-pessimistic:war">
+    <output-path>$PROJECT_DIR$/jpa/locking-pessimistic/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-locking-pessimistic</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-locking-pessimistic.war">
+      <element id="artifact" artifact-name="jpa-locking-pessimistic:war exploded" />
+    </root>
+  </artifact>
+</component>

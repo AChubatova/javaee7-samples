@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-jndi-context:war">
+    <output-path>$PROJECT_DIR$/jpa/jndi-context/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-jndi-context</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-jndi-context.war">
+      <element id="artifact" artifact-name="jpa-jndi-context:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-entitygraph:war">
+    <output-path>$PROJECT_DIR$/jpa/entitygraph/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-entitygraph</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-entitygraph.war">
+      <element id="artifact" artifact-name="jpa-entitygraph:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-default-datasource:war">
+    <output-path>$PROJECT_DIR$/jpa/default-datasource/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-default-datasource</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-default-datasource.war">
+      <element id="artifact" artifact-name="jpa-default-datasource:war exploded" />
+    </root>
+  </artifact>
+</component>

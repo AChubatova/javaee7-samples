@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cdi-beansxml-noversion:war">
+    <output-path>$PROJECT_DIR$/cdi/beansxml-noversion/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cdi-beansxml-noversion</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cdi-beansxml-noversion.war">
+      <element id="artifact" artifact-name="cdi-beansxml-noversion:war exploded" />
+    </root>
+  </artifact>
+</component>

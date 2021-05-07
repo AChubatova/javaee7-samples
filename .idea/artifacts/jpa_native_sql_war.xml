@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-native-sql:war">
+    <output-path>$PROJECT_DIR$/jpa/native-sql/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-native-sql</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-native-sql.war">
+      <element id="artifact" artifact-name="jpa-native-sql:war exploded" />
+    </root>
+  </artifact>
+</component>

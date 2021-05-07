@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="security-annotated:war">
+    <output-path>$PROJECT_DIR$/servlet/security-annotated/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>security-annotated</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="security-annotated.war">
+      <element id="artifact" artifact-name="security-annotated:war exploded" />
+    </root>
+  </artifact>
+</component>

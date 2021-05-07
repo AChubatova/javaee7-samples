@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaxrs-link:war">
+    <output-path>$PROJECT_DIR$/jaxrs/link/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaxrs-link</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaxrs-link.war">
+      <element id="artifact" artifact-name="jaxrs-link:war exploded" />
+    </root>
+  </artifact>
+</component>

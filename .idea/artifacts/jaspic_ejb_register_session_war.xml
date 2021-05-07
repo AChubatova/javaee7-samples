@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaspic-ejb-register-session:war">
+    <output-path>$PROJECT_DIR$/jaspic/ejb-register-session/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaspic-ejb-register-session</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaspic-ejb-register-session.war">
+      <element id="artifact" artifact-name="jaspic-ejb-register-session:war exploded" />
+    </root>
+  </artifact>
+</component>

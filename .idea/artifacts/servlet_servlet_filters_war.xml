@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlet-servlet-filters:war">
+    <output-path>$PROJECT_DIR$/servlet/servlet-filters/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>servlet-servlet-filters</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="servlet-servlet-filters.war">
+      <element id="artifact" artifact-name="servlet-servlet-filters:war exploded" />
+    </root>
+  </artifact>
+</component>

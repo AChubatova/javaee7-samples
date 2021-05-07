@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpa-extended-pc:war">
+    <output-path>$PROJECT_DIR$/jpa/extended-pc/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jpa-extended-pc</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jpa-extended-pc.war">
+      <element id="artifact" artifact-name="jpa-extended-pc:war exploded" />
+    </root>
+  </artifact>
+</component>

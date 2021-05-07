@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jacc-contexts:war">
+    <output-path>$PROJECT_DIR$/jacc/contexts/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jacc-contexts</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jacc-contexts.war">
+      <element id="artifact" artifact-name="jacc-contexts:war exploded" />
+    </root>
+  </artifact>
+</component>

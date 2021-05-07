@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="websocket-encoder-programmatic:war">
+    <output-path>$PROJECT_DIR$/websocket/encoder-programmatic/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>websocket-encoder-programmatic</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="websocket-encoder-programmatic.war">
+      <element id="artifact" artifact-name="websocket-encoder-programmatic:war exploded" />
+    </root>
+  </artifact>
+</component>

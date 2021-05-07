@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaxrs-beanparam:war">
+    <output-path>$PROJECT_DIR$/jaxrs/beanparam/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaxrs-beanparam</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaxrs-beanparam.war">
+      <element id="artifact" artifact-name="jaxrs-beanparam:war exploded" />
+    </root>
+  </artifact>
+</component>

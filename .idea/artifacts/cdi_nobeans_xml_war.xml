@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cdi-nobeans-xml:war">
+    <output-path>$PROJECT_DIR$/cdi/nobeans-xml/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cdi-nobeans-xml</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cdi-nobeans-xml.war">
+      <element id="artifact" artifact-name="cdi-nobeans-xml:war exploded" />
+    </root>
+  </artifact>
+</component>

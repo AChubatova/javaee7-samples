@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaxrs-resource-validation:war">
+    <output-path>$PROJECT_DIR$/jaxrs/resource-validation/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaxrs-resource-validation</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaxrs-resource-validation.war">
+      <element id="artifact" artifact-name="jaxrs-resource-validation:war exploded" />
+    </root>
+  </artifact>
+</component>

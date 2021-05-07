@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jsf-http-get:war">
+    <output-path>$PROJECT_DIR$/jsf/http-get/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jsf-http-get</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jsf-http-get.war">
+      <element id="artifact" artifact-name="jsf-http-get:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaxrs-async-client:war">
+    <output-path>$PROJECT_DIR$/jaxrs/async-client/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaxrs-async-client</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaxrs-async-client.war">
+      <element id="artifact" artifact-name="jaxrs-async-client:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="validation-methods:war">
+    <output-path>$PROJECT_DIR$/validation/methods/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>validation-methods</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="validation-methods.war">
+      <element id="artifact" artifact-name="validation-methods:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaspic-jacc-propagation:war">
+    <output-path>$PROJECT_DIR$/jaspic/jacc-propagation/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaspic-jacc-propagation</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jaspic-jacc-propagation.war">
+      <element id="artifact" artifact-name="jaspic-jacc-propagation:war exploded" />
+    </root>
+  </artifact>
+</component>
